@@ -1,5 +1,10 @@
+:root {
+    --clr-neon: #ffffff;
+    --clr-bg: hsl(323 21% 16%);
+}
+
 body {
-   background-color: crimson;
+   background-color: black;
 }
 
 .header {
@@ -8,23 +13,18 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.scbtn {
-    background-color: rgb(195, 21, 195);
-    color: black;
-    border: 2px solid #000000; 
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.btn {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 8px;
-    transition-duration: 0.3s;
+    font-size: 1.5rem;
+    color: var(--clr-neon);
+    text-decoration: none;
+    border: currentColor 4px solid;
+    padding: 0.25em 1.25em;
+    border-radius: 0.5em;
+    text-shadow: 0 0 1em currentColor;
+    box-shadow: 0 0 1em 0 currentColor;
 }
-.scbtn:hover {
-    background-color: #000000;
-    color: white;
-}
+
 .container { 
     height: 200px;
     position: relative;
